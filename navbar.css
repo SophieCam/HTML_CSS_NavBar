@@ -1,0 +1,129 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(dave-hoefler-X6maUPa_Mkc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+ .navbar  li {
+    float: left;
+  }
+  
+ .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+   li a:hover:not(.active) {
+    background-color: #eb998e;
+  }
+  
+  .active {
+    background-color: red;
+    
+  }
+ .search {
+     width: 300px;
+     padding: 5px;
+     border-radius: 0 0 0 0;
+     border: none;
+     border: 1px solid white;
+     margin-top: 13px;
+     
+ }
+
+ .btn {margin-top: 13px;
+
+ }
+
+ .sign-in {
+   position: absolute;
+    right: 5px;
+    top: 8px;
+    bottom: 10px;
+    width: 200px;
+    padding: 0px;
+    color: white;
+    font-size: 15px;
+}
+
+.cart {
+    position:absolute;
+    right: 70px;
+    top: 20px;
+    width: 30px;
+    color: white;
+    font-size: 10px;
+    margin-top: 5px;
+    
+}
+  
+
+
+.cart .btn-cart{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    position: absolute;
+    left: 30px;
+    top: 0px;
+    bottom: 70px;
+    width: 30px;
+    margin-bottom:  30px;
+}
+
+/* .topnav input{float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .topnav .Search{ 
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,.50%);
+  }
+
+  input{
+      border: 3px solid black;
+      height: 40px;
+      width: 300px;
+      padding: 10px;
+  } */
+
+
+  .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+  }
+/*   
+  .btn {
+    filter: invert(100%); 
+      -webkit-filter: invert(100%);
+}
+ */
+
